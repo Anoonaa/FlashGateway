@@ -1,0 +1,24 @@
+/**
+ * STYLES INDEX
+ * Import all styles in proper order
+ */
+
+/* Design System & Foundation */
+@import "./design-system.css";
+
+/* Component Styles */
+@import "./components.css";
+
+/* Layout Styles */
+@import "./layout.css";
+
+/* Footer & Modal Styles */
+@import "./footer-modal.css";
+
+/* Page-specific Overrides */
+@import "./pages.css";
+
+/* Tailwind base + utilities - required for utility classes used in components */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

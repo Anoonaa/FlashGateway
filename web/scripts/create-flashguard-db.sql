@@ -1,0 +1,5 @@
+IF DB_ID(N'FlashGuard') IS NULL
+BEGIN
+    CREATE DATABASE [FlashGuard];
+END
+GO
