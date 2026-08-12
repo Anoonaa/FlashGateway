@@ -15,26 +15,6 @@ This README focuses on a clear, reliable setup path (database first → API seco
 
 ---
 
-Table of contents
-- Quick links
-- Architecture overview
-- Requirements
-- Recommended order (DB → API → Web)
-- Docker (recommended) — step-by-step
-- Local development (manual) — step-by-step
-- Environment variables
-- Endpoints & docs
-- Troubleshooting & notes
-- Credits
-
-Quick links (local, default ports)
-- Web app (browser): http://localhost/  (web container maps port 80 → host 80)
-- API base (host): http://localhost:4000  (api container maps host 4000 → container 4001)
-- Swagger UI: http://localhost:4000/api-docs
-- OpenAPI JSON: http://localhost:4000/openapi.json
-- API health check: http://localhost:4000/health
-- Docker Compose file: ./docker-compose.yml
-- Schema & seed scripts: ./db/01-schema.sql and ./db/02-seed.sql
 
 Architecture at a glance
 - db/ — SQL Server schema + seeds. This is the authoritative source for data layout.
